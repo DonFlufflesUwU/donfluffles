@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "donfluffles.webhop.me",
+  "Id": "f2486178-6093-4a58-8873-390f5e8f589b"
+}
