@@ -1,0 +1,73 @@
+
+* {box-sizing: border-box;}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.form-inline input {
+  justify-content: center;
+  vertical-align: middle;
+  margin: 2px 5px 2px 0;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.heading {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+    max-width: 35%;
+    max-height: 35%;
+
+    height: auto;
+    width: auto\9;
+}
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+}
+@media (max-width: 1200px) {
+ .heading {
+   margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+    max-height: 50%;
+
+    height: auto;
+    width: auto\9;
+   }
+}
+.centered-title {
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.comments {
+		width: 50%;
+		margin-left: 0;
+
+
+	}
+#main {
+ margin: 25%;
+ }
+#disqus_thread {
+margin-left: auto;
+  margin-right: auto;
+    max-width: 50%;
+
+
+    height: auto;
+    width: auto\9;
+}

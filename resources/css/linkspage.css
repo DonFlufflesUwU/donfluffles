@@ -1,0 +1,21 @@
+.form-inline-linkspage input {
+  justify-content: center;
+  vertical-align: middle;
+  margin: 10px 5px 2px 0;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+ }
+.form-inline-linkspage {
+    flex-direction: column;
+    align-items: stretch;
+display: flex;
+
+margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+max-width: 50%;
+height: auto;
+    width: auto\9;
+
+
