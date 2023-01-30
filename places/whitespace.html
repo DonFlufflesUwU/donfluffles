@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to FLUFFLE SPACE.</title>
+	<style>@font-face {
+  font-family: omori;
+  src: url(../resources/font/OMORI_GAME2.ttf);
+}
+
+body {
+  font-family: omori;
+	text-align: center;
+	margin: 0px;
+	padding:0px;
+}
+		</style>
+	
+</head>
+
+<body>
+	<div style="height:200px; background-color:black;"></div>
+	<div style="background-color: black; height:900px; color:white; padding-top:25px;">
+	<h1>welcome to FLUFFLE SPACE.</h2>
+	<br>
+	<h1>you have been living here for as long as you can remember.</h2>
+		</div>
+	<div style="background: linear-gradient(to top, transparent 0%, black 100%);
+    height: 500px;
+    padding: 0px;"></div>
+	<div style="height:1500px;"></div>
+	<div style="margin-left:auto; margin-right:auto;"><a href="../index.html"><img width="10%" src="../resources/img/donfluffles.png"></a></div>
+		<div style="height:500px;"></div>
+	<audio src="../resources/sfx/whitespace.mp3" autoplay="true" loop id="bgm"></audio>
+	<script>
+		//ill get properly looping files eventually
+		var audio = document.getElementById("bgm");
+		audio.volume = 0.75;
+	</script>
+</body>
+</html>
