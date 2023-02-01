@@ -11,8 +11,11 @@
   vertical-align: middle;
   margin: 2px 5px 2px 0;
   padding: 5px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #0f0f0f;
+  border: 2px solid #000;
+}
+.form-inline input:hover {
+  background-color:#000;
 }
 .heading {
 display: block;
